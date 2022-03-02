@@ -1,16 +1,13 @@
 # cucumber-playwright
 
-![Test](https://github.com/Tallyb/cucumber-playwright/workflows/Test/badge.svg)
-
-A starter repo for writing E2E tests based on Cucumber(7) with Playwright using Typescript.
+A starter repo for writing E2E tests based on Cucumber(7) with Playwright using Javascript.
 
 ## Kudos
 
-This repository is based on the [Cucumber-typescript-starter](https://github.com/hdorgeval/cucumber7-ts-starter/) repo.
+This repository is based on the [Cucumber-Playwright-starter](https://github.com/Tallyb/cucumber-playwright/) repo.
 
 ## What's inside
 
-- Typescript setup for writing steps with eslint/typescript and prettier
 - Launching of Playwright browser before running all tests
 - Launching new context and page for each scenario
 - Running feature with video recording option
@@ -45,7 +42,7 @@ npm run test
 
 ## Working with Page Objects
 
-I am not fond of the Page Object Model (POM) for testing. It feels like a leftover from Java world, and I do not think it fits the Javascript world. However, you can check [this PR](https://github.com/Tallyb/cucumber-playwright/pull/95/files) to see POM implementation. 
+Please check [this PR](https://github.com/Tallyb/cucumber-playwright/pull/95/files) to see POM implementation.
 
 ## Debugging Features
 
@@ -77,7 +74,7 @@ In [cucumber.js](cucumber.js) file, modify the options.
 
 - tag the scenario with `@ignore`
 
-## To check for typescript, linting and gherkin errors
+## To check for linting and gherkin errors
 
 - run the command `npm run build`.
 
