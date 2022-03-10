@@ -4,7 +4,7 @@
   "description": "Starter project to write and debug cucumber-js features with Playwright",
   "main": "index.js",
   "scripts": {
-    "api": "DEBUG=pw:api cucumber-js",
+    "api": "PWDEBUG=1 DEBUG=pw:api cucumber-js",
     "build": "rimraf build && npm run format && npm run lint && tsc && npm run cucumber-check",
     "cucumber-check": "cucumber-js features/**/*.feature --dry-run --require env/set-environment-variables.js --require world/custom-world.js --require step-definitions/**/*.js --require hooks/**/*.js --format-options \"{\\\"snippetInterface\\\": \\\"async-await\\\"}\" --format summary --format progress --format progress-bar  --publish-quiet",
     "debug": "PWDEBUG=1 DEBUG=pw:api cucumber-js",

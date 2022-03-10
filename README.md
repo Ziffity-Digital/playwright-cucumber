@@ -24,6 +24,11 @@ Create a repo based on this template and start writing your tests.
 `npm run test` or `npx cucumber-js` runs all tests
 `npm run test <feature name>` or `npx cucumber-js <feature name>` run the single feature
 
+## To enable headed mode
+
+Edit `src/support/config.js` and update `runHeadless` to `false` enable headed mode.
+Update `runSlow` to value `500 or 1000` to slow down the headed mode.
+
 ## Browser selection
 
 By default we will use chromium. You can define an envrionment variable called BROWSER and
