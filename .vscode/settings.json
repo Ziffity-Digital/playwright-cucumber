@@ -26,22 +26,19 @@
         "**/bower_components": true
     },
     "javascript.referencesCodeLens.enabled": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "typescript.implementationsCodeLens.enabled": true,
     "git.autofetch": true,
     "eslint.alwaysShowStatus": true,
     "eslint.options": {
         "extensions": [".js", ".ts"]
     },
-    "eslint.validate": ["javascript","typescript"],
+    "eslint.validate": ["javascript"],
     "prettier.singleQuote": true,
     "prettier.trailingComma": "all",
 
     "cucumberautocomplete.syncfeatures": "./features/**/*.feature",
     "cucumberautocomplete.steps": [
-        "src/steps/**/*.ts"
+        "src/steps/**/*.js"
     ],
-    "typescript.tsdk": "node_modules/typescript/lib",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     }
