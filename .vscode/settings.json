@@ -29,7 +29,7 @@
     "git.autofetch": true,
     "eslint.alwaysShowStatus": true,
     "eslint.options": {
-        "extensions": [".js", ".ts"]
+        "extensions": [".js"]
     },
     "eslint.validate": ["javascript"],
     "prettier.singleQuote": true,
