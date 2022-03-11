@@ -6,7 +6,7 @@ A starter repo for writing E2E tests based on Cucumber(7) with Playwright using 
 
 This repository is based on the [Cucumber-Playwright-starter](https://github.com/Tallyb/cucumber-playwright/) repo.
 
-## What's inside
+## What is inside
 
 - Launching of Playwright browser before running all tests
 - Launching new context and page for each scenario
