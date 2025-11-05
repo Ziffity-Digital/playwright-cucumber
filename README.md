@@ -1,7 +1,8 @@
 # cucumber-playwright
 
-A starter repo for writing E2E tests based on Cucumber(7) with Playwright using Javascript.
+This is a starter / template repo that combines Playwright + Cucumber (JavaScript) to help set up end-to-end testing with some pre-built scaffolding. 
 
+It already includes a set of configuration defaults, folder structure, commands, and helpers to reduce the time needed to bootstrap a new test suite
 
 ## What is inside
 
