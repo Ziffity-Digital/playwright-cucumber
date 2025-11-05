@@ -2,9 +2,6 @@
 
 A starter repo for writing E2E tests based on Cucumber(7) with Playwright using Javascript.
 
-## Kudos
-
-This repository is based on the [Cucumber-Playwright-starter](https://github.com/Tallyb/cucumber-playwright/) repo.
 
 ## What is inside
 
